@@ -1,8 +1,3 @@
-%-protocol.c : $(wayland_protocoldir)/%.xml
-	$(AM_V_GEN)$(wayland_scanner) code $< $@
-
-%-server-protocol.h : $(wayland_protocoldir)/%.xml
-	$(AM_V_GEN)$(wayland_scanner) server-header $< $@
-
-%-client-protocol.h : $(wayland_protocoldir)/%.xml
-	$(AM_V_GEN)$(wayland_scanner) client-header $< $@
+version https://git-lfs.github.com/spec/v1
+oid sha256:283a9e4474c544bcb20995d64dd0379f941812d1001bfa424c23577c479d6167
+size 292

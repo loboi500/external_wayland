@@ -1,20 +1,3 @@
-option('libraries',
-  description: 'Compile Wayland libraries',
-  type: 'boolean',
-  value: 'true')
-option('scanner',
-  description: 'Compile wayland-scanner binary',
-  type: 'boolean',
-  value: 'true')
-option('documentation',
-  description: 'Build the documentation (requires Doxygen, dot, xmlto, xsltproc)',
-  type: 'boolean',
-  value: 'true')
-option('dtd_validation',
-  description: 'Validate the protocol DTD (requires libxml2)',
-  type: 'boolean',
-  value: 'true')
-option('icon_directory',
-  description: 'Location used to look for cursors (defaults to ${datadir}/icons if unset)',
-  type: 'string',
-  value: '')
+version https://git-lfs.github.com/spec/v1
+oid sha256:1541c5829417f787ef11a570906f6096e4303b55929a1419c92b1401d805c677
+size 618
